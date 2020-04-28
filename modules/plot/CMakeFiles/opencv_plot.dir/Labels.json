@@ -1,0 +1,54 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/plot/include/opencv2/plot.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/plot/src/plot.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/plot/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_plot",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/cvconfig.h"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/plot/vs_version.rc"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/plot/opencv_plot_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_plot",
+			"Module"
+		],
+		"name" : "opencv_plot"
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/dnn_objdetect/include/opencv2/core_detect.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/dnn_objdetect/src/core_detect.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/dnn_objdetect/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/cvconfig.h"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/dnn_objdetect/vs_version.rc"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/dnn_objdetect/opencv_dnn_objdetect_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_objdetect",
+			"Module"
+		],
+		"name" : "opencv_dnn_objdetect"
+	}
+}

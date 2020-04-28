@@ -1,0 +1,1 @@
+-IC:/Users/User/opencv/opencv_contrib-master/modules/surface_matching/include -IC:/Users/User/opencv/build/modules/surface_matching -IC:/Users/User/Downloads/opencv/sources/modules/core/include -IC:/Users/User/Downloads/opencv/sources/modules/flann/include -isystem C:/Users/User/opencv/build 

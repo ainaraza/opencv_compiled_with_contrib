@@ -1,0 +1,72 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/phase_unwrapping/include/opencv2/phase_unwrapping.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/phase_unwrapping/include/opencv2/phase_unwrapping/histogramphaseunwrapping.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/phase_unwrapping/include/opencv2/phase_unwrapping/phase_unwrapping.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/phase_unwrapping/src/histogramphaseunwrapping.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/opencv_contrib-master/modules/phase_unwrapping/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_phase_unwrapping",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/cvconfig.h"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/phase_unwrapping/vs_version.rc"
+		},
+		{
+			"file" : "C:/Users/User/opencv/build/modules/phase_unwrapping/opencv_phase_unwrapping_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_phase_unwrapping",
+			"Module"
+		],
+		"name" : "opencv_phase_unwrapping"
+	}
+}

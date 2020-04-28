@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_intensity_transform
+ Module
+# Source files and their labels
+C:/Users/User/opencv/opencv_contrib-master/modules/intensity_transform/include/opencv2/intensity_transform.hpp
+ Extra
+ opencv_intensity_transform
+ Module
+C:/Users/User/opencv/opencv_contrib-master/modules/intensity_transform/src/intensity_transform.cpp
+ Extra
+ opencv_intensity_transform
+ Module
+C:/Users/User/opencv/opencv_contrib-master/modules/intensity_transform/src/precomp.hpp
+ Extra
+ opencv_intensity_transform
+ Module
+C:/Users/User/opencv/build/cvconfig.h
+C:/Users/User/opencv/build/opencv2/opencv_modules.hpp
+C:/Users/User/opencv/build/modules/intensity_transform/vs_version.rc
+C:/Users/User/opencv/build/modules/intensity_transform/opencv_intensity_transform_main.cpp

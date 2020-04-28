@@ -1,0 +1,1 @@
+-IC:/Users/User/opencv/opencv_contrib-master/modules/quality/include -IC:/Users/User/opencv/build/modules/quality -IC:/Users/User/Downloads/opencv/sources/modules/core/include -IC:/Users/User/Downloads/opencv/sources/modules/imgproc/include -IC:/Users/User/Downloads/opencv/sources/modules/ml/include -isystem C:/Users/User/opencv/build 

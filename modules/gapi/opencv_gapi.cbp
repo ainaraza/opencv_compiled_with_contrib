@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="opencv_gapi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\platforms\;CMake Files\cmake\checks\;CMake Files\cmake\templates\;CMake Files\modules\;CMake Files\modules\core\;CMake Files\modules\core\include\;CMake Files\modules\core\include\opencv2\;CMake Files\modules\core\include\opencv2\core\;CMake Files\modules\core\misc\;CMake Files\modules\core\misc\java\;CMake Files\modules\core\misc\java\src\;CMake Files\modules\core\misc\java\src\java\;CMake Files\modules\gapi\;CMake Files\modules\gapi\cmake\;CMake Files\modules\videoio\;CMake Files\modules\videoio\cmake\;CMake Files\modules\calib3d\;CMake Files\modules\dnn\;CMake Files\modules\dnn\cmake\;CMake Files\modules\dnn\cmake\hooks\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\highgui\;CMake Files\modules\imgcodecs\;CMake Files\modules\imgproc\;CMake Files\modules\java\;CMake Files\modules\java\generator\;CMake Files\modules\java\generator\android\;CMake Files\modules\java\generator\android\java\;CMake Files\modules\java\generator\android\java\org\;CMake Files\modules\java\generator\android\java\org\opencv\;CMake Files\modules\java\generator\android\java\org\opencv\android\;CMake Files\modules\java\generator\src\;CMake Files\modules\java\generator\src\java\;CMake Files\modules\java\generator\src\java\org\;CMake Files\modules\java\generator\src\java\org\opencv\;CMake Files\modules\java\generator\src\java\org\opencv\osgi\;CMake Files\modules\js\;CMake Files\modules\ml\;CMake Files\modules\objdetect\;CMake Files\modules\photo\;CMake Files\modules\python\;CMake Files\modules\python\package\;CMake Files\modules\python\package\template\;CMake Files\modules\python\bindings\;CMake Files\modules\python\test\;CMake Files\modules\python\python2\;CMake Files\modules\python\python3\;CMake Files\modules\stitching\;CMake Files\modules\ts\;CMake Files\modules\video\;CMake Files\modules\world\;CMake Files\3rdparty\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libjpeg-turbo\;CMake Files\3rdparty\libtiff\;CMake Files\3rdparty\libwebp\;CMake Files\3rdparty\libjasper\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\openexr\;CMake Files\3rdparty\protobuf\;CMake Files\3rdparty\quirc\;CMake Files\3rdparty\ffmpeg\;CMake Files\include\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opencv\;CMake Files\..\..\..\opencv\build\;CMake Files\..\..\..\opencv\build\3rdparty\;CMake Files\..\..\..\opencv\build\3rdparty\ffmpeg\;CMake Files\..\..\..\opencv\opencv_contrib-master\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\matlab\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\matlab\cmake\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\cmake\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\alphamat\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\aruco\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\bgsegm\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\bioinspired\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ccalib\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cnn_3dobj\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaarithm\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudabgsegm\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudacodec\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudafeatures2d\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudafilters\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaimgproc\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudalegacy\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaobjdetect\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaoptflow\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudastereo\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudawarping\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudev\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cvv\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\datasets\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dnn_objdetect\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dnn_superres\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dpm\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\face\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\freetype\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\fuzzy\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\hdf\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\hfs\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\img_hash\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\intensity_transform\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\line_descriptor\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\optflow\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ovis\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\phase_unwrapping\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\plot\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\quality\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\rapid\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\reg\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\rgbd\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\saliency\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\sfm\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\sfm\cmake\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\shape\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\stereo\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\structured_light\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\superres\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\surface_matching\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\tracking\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\videostab\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\viz\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xfeatures2d\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xfeatures2d\cmake\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ximgproc\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\tools\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\tools\waldboost_detector\;CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xphoto\;CMake Files\doc\;CMake Files\data\;CMake Files\apps\;CMake Files\apps\annotation\;CMake Files\apps\visualisation\;CMake Files\apps\interactive-calibration\;CMake Files\apps\version\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/User/opencv/build/modules/gapi"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_gapi">
+				<Option output="C:/Users/User/opencv/build/bin/libopencv_gapi420.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/modules/gapi"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/opencv/build/modules/gapi"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/src"/>
+					<Add directory="C:/Users/User/opencv/build/3rdparty/ade/ade-0.1.1f/sources/ade/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_gapi"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_gapi/fast">
+				<Option output="C:/Users/User/opencv/build/bin/libopencv_gapi420.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/modules/gapi"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/opencv/build/modules/gapi"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/src"/>
+					<Add directory="C:/Users/User/opencv/build/3rdparty/ade/ade-0.1.1f/sources/ade/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_gapi/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_gapi">
+				<Option output="C:/Users/User/opencv/build/bin/opencv_test_gapi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_TESTS=1"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/ts/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/videoio/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/highgui/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/src"/>
+					<Add directory="C:/Users/User/opencv/build/3rdparty/ade/ade-0.1.1f/sources/ade/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_test_gapi"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_test_gapi/fast">
+				<Option output="C:/Users/User/opencv/build/bin/opencv_test_gapi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_TESTS=1"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/ts/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/videoio/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/highgui/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/src"/>
+					<Add directory="C:/Users/User/opencv/build/3rdparty/ade/ade-0.1.1f/sources/ade/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_test_gapi/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_gapi">
+				<Option output="C:/Users/User/opencv/build/bin/opencv_perf_gapi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/ts/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/videoio/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/highgui/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_perf_gapi"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_perf_gapi/fast">
+				<Option output="C:/Users/User/opencv/build/bin/opencv_perf_gapi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/opencv/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add option="-D_USE_MATH_DEFINES"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/ts/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/core/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/imgproc/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/videoio/include"/>
+					<Add directory="C:/Users/User/Downloads/opencv/sources/modules/highgui/include"/>
+					<Add directory="C:/Users/User/opencv/build"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 opencv_perf_gapi/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/User/opencv/build/modules/gapi/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/cpu/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/cpu/gcpukernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/cpu/imgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/fluid/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/fluid/gfluidbuffer.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/fluid/gfluidkernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/fluid/imgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/garg.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/garray.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gasync_context.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcall.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcommon.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcompiled.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcompiled_async.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcompoundkernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcomputation.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gcomputation_async.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gkernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gmat.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gmetaarg.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gproto.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gpu/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gpu/ggpukernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gpu/imgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gscalar.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gstreaming.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gtransform.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gtype_traits.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/gtyped.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/imgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/infer.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/infer/ie.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/ocl/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/ocl/goclkernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/ocl/imgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/opencv_includes.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/operators.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/assert.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/convert.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/cvdefs.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/exports.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/mat.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/saturate.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/scalar.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/own/types.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/plaidml/core.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/plaidml/gplaidmlkernel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/plaidml/plaidml.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/render.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/render/render.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/streaming/cap.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/streaming/source.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/any.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/compiler_hints.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/optional.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/throw.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/util.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/include/opencv2/gapi/util/variant.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_core_perf_tests.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_core_perf_tests.hpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_core_perf_tests_inl.hpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_imgproc_perf_tests.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_imgproc_perf_tests.hpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/common/gapi_imgproc_perf_tests_inl.hpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/cpu/gapi_core_perf_tests_cpu.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/cpu/gapi_imgproc_perf_tests_cpu.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/cpu/gapi_imgproc_perf_tests_fluid.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/gpu/gapi_core_perf_tests_gpu.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/gpu/gapi_imgproc_perf_tests_gpu.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/internal/gapi_compiler_perf_tests.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/perf_bench.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/perf_main.cpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/perf/perf_precomp.hpp">
+			<Option target="opencv_perf_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/ft_render.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/ft_render.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/garray.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gcall.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gcomputation.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/ginfer.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gkernel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gmat.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gnode.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gnode.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gorigin.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gorigin.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gproto.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/gscalar.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/kernels_core.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/kernels_imgproc.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/operators.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/render.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/render_ocv.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/api/render_ocv.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/common/gcompoundbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/common/gcompoundkernel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/cpu/gcpubackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/cpu/gcpubackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/cpu/gcpucore.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/cpu/gcpuimgproc.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/cpu/gcpukernel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidbackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidbuffer.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidcore.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidimgproc.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidimgproc_func.dispatch.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/fluid/gfluidimgproc_func.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ie/giebackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ie/giebackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclbackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclcore.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclcore.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclimgproc.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclimgproc.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/ocl/goclkernel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/plaidml/gplaidmlbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/plaidml/gplaidmlbackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/plaidml/gplaidmlcore.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/render/grenderocv.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/render/grenderocv.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/render/grenderocvbackend.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/backends/render/grenderocvbackend.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gcompiled.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gcompiler.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gcompiler.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gislandmodel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gislandmodel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gmodel.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gmodel.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gmodelbuilder.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gmodelbuilder.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/gstreaming.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/dump_dot.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/exec.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/helpers.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/helpers.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/islands.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/kernels.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/meta.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/pattern_matching.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/pattern_matching.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/perform_substitution.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/streaming.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/compiler/passes/transformations.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/executor/gasync.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/executor/gexecutor.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/executor/gexecutor.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/executor/gstreamingexecutor.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/src/executor/gstreamingexecutor.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_compoundkernel_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_core_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_core_tests.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_core_tests_inl.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_imgproc_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_imgproc_tests.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_imgproc_tests_inl.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_operators_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_operators_tests.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_operators_tests_inl.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_render_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_render_tests.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_tests_common.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/common/gapi_tests_helpers.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_core_tests_cpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_core_tests_fluid.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_imgproc_tests_cpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_imgproc_tests_fluid.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_operators_tests_cpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/cpu/gapi_operators_tests_fluid.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_array_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_async_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_basic_hetero_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_desc_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_parallel_rois_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_resize_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_roi_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_test_kernels.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_fluid_test_kernels.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_gcompiled_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_gcomputation_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_gpu_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_kernel_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_mock_kernels.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_plaidml_pipelines.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_planar_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_sample_pipelines.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_scalar_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_smoke_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_transform_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_typed_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gapi_util_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gpu/gapi_core_tests_gpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gpu/gapi_imgproc_tests_gpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/gpu/gapi_operators_tests_gpu.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/infer/gapi_infer_ie_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_backend_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_executor_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_garg_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_gmetaarg_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_gmodel_builder_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_island_fusion_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_island_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_pattern_matching_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_perform_substitution_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_recompilation_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_int_vectorref_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/internal/gapi_transactions_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/opencl_kernels_test_gapi.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/own/conc_queue_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/own/gapi_types_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/own/mat_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/own/scalar_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/render/ftp_render_test.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/render/gapi_render_tests_ocv.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/streaming/gapi_streaming_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/test_main.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/test_precomp.hpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/util/any_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/util/optional_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/test/util/variant_tests.cpp">
+			<Option target="opencv_test_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/cvconfig.h">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/modules/gapi/backends/fluid/gfluidimgproc_func.avx2.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/modules/gapi/backends/fluid/gfluidimgproc_func.sse4_1.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/modules/gapi/opencv_gapi_main.cpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/modules/gapi/vs_version.rc">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/opencv/build/opencv2/opencv_modules.hpp">
+			<Option target="opencv_gapi"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVCompilerOptimizations.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVCompilerOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectApacheAnt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectDirectX.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectOpenCL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectTrace.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDetectVTK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVDownload.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVExtraTargets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindFrameworks.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindLAPACK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindLibsGUI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindLibsGrfmt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindLibsPerf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindLibsVideo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindMKL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindOpenBLAS.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVFindProtobuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVGenABI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVGenAndroidMK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVGenConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVGenHeaders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVGenSetupVars.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVInstallLayout.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVMinDepVersions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVModule.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVPCHSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVPackaging.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/OpenCVVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/platforms/OpenCV-Windows.cmake">
+			<Option virtualFolder="CMake Files\cmake\platforms\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/checks/directx.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/checks/opencl.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/checks/win32uitest.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/OpenCVConfig.root-WIN32.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/custom_hal.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/cv_cpu_config.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/dllmain.cpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/opencv_modules.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/setup_vars_win32.cmd.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/cmake/templates/vs_version.rc.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/core/include/opencv2/core/version.hpp">
+			<Option virtualFolder="CMake Files\modules\core\include\opencv2\core\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/core/misc/java/src/java/core+Core.jcode.in">
+			<Option virtualFolder="CMake Files\modules\core\misc\java\src\java\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\gapi\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/cmake/DownloadADE.cmake">
+			<Option virtualFolder="CMake Files\modules\gapi\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/gapi/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\modules\gapi\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/detect_dc1394.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/detect_dshow.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/detect_ffmpeg.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/detect_gstreamer.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/videoio/cmake/plugin.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/dnn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\dnn\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake">
+			<Option virtualFolder="CMake Files\modules\dnn\cmake\hooks\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/java/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/java/common.cmake">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/java/generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\generator\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in">
+			<Option virtualFolder="CMake Files\modules\java\generator\android\java\org\opencv\android\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in">
+			<Option virtualFolder="CMake Files\modules\java\generator\src\java\org\opencv\osgi\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/js/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\js\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/common.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/python_loader.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/package/template/config-x.y.py.in">
+			<Option virtualFolder="CMake Files\modules\python\package\template\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/package/template/config.py.in">
+			<Option virtualFolder="CMake Files\modules\python\package\template\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/bindings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\bindings\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\test\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/python2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python2\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/python/python3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python3\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libjpeg-turbo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libjpeg-turbo/jconfig.h.win.in">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libjpeg-turbo/jconfigint.h.in">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libtiff/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libtiff/tif_config.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libtiff/tiffconf.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libjasper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjasper\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libpng\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/quirc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\quirc\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/3rdparty/ffmpeg/ffmpeg.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/build/3rdparty/ffmpeg/ffmpeg_version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/matlab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\matlab\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/matlab/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\matlab\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/text/text_config.hpp.in">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/text/cmake/FindTesseract.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/text/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\text\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/alphamat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\alphamat\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/aruco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\aruco\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/bgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\bgsegm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/bioinspired/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\bioinspired\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/ccalib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ccalib\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cnn_3dobj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cnn_3dobj\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cnn_3dobj/FindCaffe.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cnn_3dobj\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cnn_3dobj/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cnn_3dobj\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudaarithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaarithm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudabgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudabgsegm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudacodec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudacodec\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudafeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudafeatures2d\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudafilters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudafilters\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudaimgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaimgproc\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudalegacy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudalegacy\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudaobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaobjdetect\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudaoptflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudaoptflow\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudastereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudastereo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudawarping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudawarping\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cudev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cudev\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/cvv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\cvv\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/datasets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\datasets\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/dnn_objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dnn_objdetect\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/dnn_superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dnn_superres\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/dpm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\dpm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/face/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\face\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/freetype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\freetype\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/fuzzy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\fuzzy\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/hdf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\hdf\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/hfs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\hfs\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/img_hash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\img_hash\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/intensity_transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\intensity_transform\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/line_descriptor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\line_descriptor\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/optflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\optflow\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/ovis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ovis\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/phase_unwrapping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\phase_unwrapping\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/plot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\plot\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/quality/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\quality\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/rapid/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\rapid\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/reg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\reg\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/rgbd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\rgbd\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/saliency/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\saliency\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\sfm\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/sfm/cmake/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\sfm\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/sfm/cmake/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\sfm\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\shape\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/stereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\stereo\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/structured_light/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\structured_light\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\superres\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/surface_matching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\surface_matching\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/tracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\tracking\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\videostab\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/viz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\viz\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xfeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xfeatures2d\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xfeatures2d/cmake/download_boostdesc.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xfeatures2d\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xfeatures2d/cmake/download_vgg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xfeatures2d\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/ximgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\ximgproc\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xobjdetect/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\tools\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xobjdetect/tools/waldboost_detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xobjdetect\tools\waldboost_detector\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/../../../opencv/opencv_contrib-master/modules/xphoto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\opencv_contrib-master\modules\xphoto\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/apps/visualisation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\visualisation\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/apps/interactive-calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\interactive-calibration\"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Downloads/opencv/sources/apps/version/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\version\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+-IC:/Users/User/opencv/opencv_contrib-master/modules/xphoto/include -IC:/Users/User/opencv/build/modules/xphoto -IC:/Users/User/Downloads/opencv/sources/modules/core/include -IC:/Users/User/Downloads/opencv/sources/modules/imgproc/include -IC:/Users/User/Downloads/opencv/sources/modules/photo/include -isystem C:/Users/User/opencv/build 
